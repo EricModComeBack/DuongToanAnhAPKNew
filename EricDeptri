@@ -1,3 +1,9 @@
+VMODCHECK ='2' #input("MODCHECK - (SKIN -> HERO)/1; (bEqua)/2 :") 
+chedovien ='1' #input("MOD VIỀN - (Tự Động)/1; (Thủ Công)/2 :") 
+deskins = 'y' #input("Đè Hiệu Ứng Skin S - (Đè)/y; (Ko Đè)/n :") 
+fixlag= 'y' #input("Fix Lag AssetRefs - (Fix)/y; (Ko Fix)/n :") 
+fixlag1= 'y' #input("Fix Lag Born - (Fix)/y; (Ko Fix)/n :")
+version ='1.55.1' #input("version: ")
 from colorama import init, Fore
 from os import listdir
 import os,zipfile,colorama,shutil,xml.dom.minidom,xml.sax,os,re,shutil,random,getopt,sys,pyzstd
